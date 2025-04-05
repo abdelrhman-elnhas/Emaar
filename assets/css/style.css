@@ -253,6 +253,8 @@ header .nav-item>.nav-link {
 			color: var(--primary-color);
 			position: relative;
 			z-index: 2;
+			width: fit-content;
+
 
 			&::before {
 				position: absolute;
@@ -400,12 +402,9 @@ header .nav-item>.nav-link {
 
 		h1 {
 			font-size: 30px;
-			font-weight: var(--font-bold);
-			line-height: 45px;
-			color: var(--primary-color);
-			position: relative;
 
 			span {
+
 				&::before {
 					width: 198px;
 				}
