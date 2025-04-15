@@ -675,7 +675,7 @@ header .nav-item>.nav-link {
 }
 
 .info-btn {
-	background-color: #ffc107;
+	background-color: var(--secondary-color);
 	border: none;
 	border-radius: var(--radius-md);
 	padding: 8px 20px;
@@ -689,7 +689,7 @@ header .nav-item>.nav-link {
 }
 
 .info-btn:hover {
-	background-color: #ffb300;
+	background-color: #fe9900;
 }
 
 
