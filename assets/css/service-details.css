@@ -127,22 +127,34 @@
 
 /* Responsive Styles */
 @media (max-width: 991px) {
+	.service__title__container h3 {
+		font-size: 28px;
+	}
+
 	.service__title__container h2 {
-		font-size: 30px;
+		font-size: 40px;
 	}
 
 	.service__description p {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.service__feature__item span {
-		font-size: 14px;
+		font-size: 16px;
+	}
+
+	.service__image__container {
+		margin-bottom: 2rem;
 	}
 }
 
 @media (max-width: 768px) {
-	.service__title__container h2 {
+	.service__title__container h3 {
 		font-size: 24px;
+	}
+
+	.service__title__container h2 {
+		font-size: 32px;
 	}
 
 	.service__ctas {
@@ -155,8 +167,12 @@
 }
 
 @media (max-width: 576px) {
-	.service__title__container h2 {
+	.service__title__container h3 {
 		font-size: 20px;
+	}
+
+	.service__title__container h2 {
+		font-size: 28px;
 	}
 
 	.section__header .sub-heading {
